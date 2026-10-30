@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WOW GROOM — Grooming Studio</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff8fb;
+  color: #171217;
+}
+
+header {
+  background: #171217;
+  color: white;
+  padding: 23px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.logo {
+  font-size: 27px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.logo span { color: #ff1684; }
+
+nav {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+nav a:hover { color: #ff1684; }
+
+.hero {
+  background: #ff1684;
+  color: white;
+  padding: 80px 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.hero-content { max-width: 570px; }
+
+.tag {
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 9px 16px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+
+.hero h1 {
+  font-size: clamp(55px, 8vw, 105px);
+  line-height: .88;
+  font-weight: 900;
+  letter-spacing: -5px;
+  margin-bottom: 25px;
+}
+
+.hero p {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 420px;
+  margin-bottom: 30px;
+}
+
+.button {
+  display: inline-block;
+  background: #171217;
+  color: white;
+  text-decoration: none;
+  padding: 17px 27px;
+  border-radius: 40px;
+  font-weight: bold;
+}
+
+.hero img {
+  width: 43%;
+  max-width: 470px;
+  height: 430px;
+  object-fit: cover;
+  border: 8px solid white;
+  border-radius: 30px;
+}
+
+.marquee {
+  background: #171217;
+  color: #ff1684;
+  padding: 19px;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+section { padding: 85px 7%; }
+
+.section-title {
+  font-size: clamp(32px, 5vw, 50px);
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 45px;
+}
+
+.section-title span { color: #ff1684; }
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 22px;
+}
+
+.service-card {
+  background: white;
+  border: 2px solid #ffd0e5;
+  padding: 32px 25px;
+  border-radius: 23px;
+  text-align: center;
+  transition: .2s;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  border-color: #ff1684;
+}
+
+.emoji {
+  font-size: 48px;
+  margin-bottom: 18px;
+}
+
+.service-card h3 {
+  font-size: 23px;
+  margin-bottom: 13px;
+}
+
+.service-card p {
+  color: #716570;
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+.price {
+  color: #ff1684;
+  font-size: 24px;
+  font-weight: 900;
+}
+</style>
+</head>
+<body>
+  <!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WOW GROOM — Grooming Studio</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff8fb;
+  color: #171217;
+}
+
+header {
+  background: #171217;
+  color: white;
+  padding: 23px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.logo {
+  font-size: 27px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.logo span { color: #ff1684; }
+
+nav {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+nav a:hover { color: #ff1684; }
+
+.hero {
+  background: #ff1684;
+  color: white;
+  padding: 80px 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.hero-content { max-width: 570px; }
+
+.tag {
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 9px 16px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+
+.hero h1 {
+  font-size: clamp(55px, 8vw, 105px);
+  line-height: .88;
+  font-weight: 900;
+  letter-spacing: -5px;
+  margin-bottom: 25px;
+}
+
+.hero p {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 420px;
+  margin-bottom: 30px;
+}
+
+.button {
+  display: inline-block;
+  background: #171217;
+  color: white;
+  text-decoration: none;
+  padding: 17px 27px;
+  border-radius: 40px;
+  font-weight: bold;
+}
+
+.hero img {
+  width: 43%;
+  max-width: 470px;
+  height: 430px;
+  object-fit: cover;
+  border: 8px solid white;
+  border-radius: 30px;
+}
+
+.marquee {
+  background: #171217;
+  color: #ff1684;
+  padding: 19px;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+section { padding: 85px 7%; }
+
+.section-title {
+  font-size: clamp(32px, 5vw, 50px);
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 45px;
+}
+
+.section-title span { color: #ff1684; }
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 22px;
+}
+
+.service-card {
+  background: white;
+  border: 2px solid #ffd0e5;
+  padding: 32px 25px;
+  border-radius: 23px;
+  text-align: center;
+  transition: .2s;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  border-color: #ff1684;
+}
+
+.emoji {
+  font-size: 48px;
+  margin-bottom: 18px;
+}
+
+.service-card h3 {
+  font-size: 23px;
+  margin-bottom: 13px;
+}
+
+.service-card p {
+  color: #716570;
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+.price {
+  color: #ff1684;
+  font-size: 24px;
+  font-weight: 900;
+}
+</style>
+</head>
+<body>
